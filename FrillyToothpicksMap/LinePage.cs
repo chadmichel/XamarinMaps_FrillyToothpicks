@@ -31,7 +31,7 @@ namespace FrillyToothpicksMap
                 new Position(myLat - 0.001, myLon),
             };
 
-            var mapLine = new MapLine(points, Color.Red, 5);
+            var mapLine = new MapLine(points, Color.Red);
             map.AddLine(mapLine);
 
             var points2 = new Position[]
@@ -41,7 +41,7 @@ namespace FrillyToothpicksMap
                     new Position(myLat - 0.001, myLon + 0.001),
                 };
 
-            var mapLine2 = new MapLine(points2, Color.Blue, 5);
+            var mapLine2 = new MapLine(points2, Color.Blue);
             map.AddLine(mapLine2);
 
             var points3 = new Position[]
@@ -51,7 +51,7 @@ namespace FrillyToothpicksMap
                     new Position(myLat - 0.001, myLon - 0.001),
                 };
 
-            var mapLine3 = new MapLine(points3, Color.Green, 5);
+            var mapLine3 = new MapLine(points3, Color.Green);
             map.AddLine(mapLine3);
         }
     }

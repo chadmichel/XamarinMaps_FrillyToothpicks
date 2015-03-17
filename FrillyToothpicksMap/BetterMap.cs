@@ -131,13 +131,10 @@ namespace FrillyToothpicksMap
 
         public Color Color { get; private set; }
 
-        public double Radius { get; private set; }
-
-        public MapLine(Position[] positions, Color color, double radius)
+        public MapLine(Position[] positions, Color color)
         {
             Positions = positions;
             Color = color;
-            Radius = radius;
         }
     }
 
