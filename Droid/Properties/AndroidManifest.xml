@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.beehiveindustries.mobile">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.demo.mobile">
 	<uses-sdk android:minSdkVersion="19" android:targetSdkVersion="21" />
 	<application android:label="Beehive Mobile" android:icon="@drawable/icon">
 		<meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="YOUR_KEY_HERE!!!" />
